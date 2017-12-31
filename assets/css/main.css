@@ -2178,12 +2178,12 @@ form#container_register {
 /* Two */
 
 	#rutas {
-		/*background: url("images/overlay.png"), url("../../images/two.jpg");*/
-		/*background-size: 256px 256px, cover;*/
-		/*background-attachment: fixed, fixed;*/
-		/*background-position: top left, center center;*/
+		background: url("images/overlay.png"), url("../../images/fondo_rutas.png");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
 		/*background-color: #064831;*/
-  		background-color: rgba(255,255,255,100);
+  		/*background-color: rgba(255,255,255,100);*/
 	}
 
 /* Contact */
