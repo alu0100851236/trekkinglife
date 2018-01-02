@@ -17,7 +17,7 @@
 				<img src="images/logo_horizontal.png" height="50">
 				<nav>
 					<ul>
-						<li><strong>Bienvenido David</strong></li>
+						<li><strong>Bienvenido <%= user.local.nombre %></strong></li>
 						<li><a href="#intro">Home</a></li>
 						<li><a href="#misrutas">Mis Rutas</a></li>
 						<li><a href="#rutas">Rutas</a></li>
@@ -25,6 +25,7 @@
 						<li><a href="#contacto">Contacto</a></li>
 						<!--<li><img class="alineadoTextoImagenCentro" src="images/iconos/buscar.png" width="25"></li>-->
 						<li><input type="text" id="search" name="search" placeholder="Buscar" /></div></li>
+						<li><a href="/logout"><span class="fa fa-sign-out"></span> Salir</li></a>
 					</ul>
 				</nav>
 			</header>
@@ -33,18 +34,9 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				
 				<div>
+					<h2>Bienvenido <%= user.local.nombre %></h2>
 					<h2>Experimenta la naturaleza libremente, sabiendo por donde vas</h2>
-					<form id="container_register">
-						<div>
-							<div class="field"> <input type="text" name="name" placeholder="Introduce tu email..." /></div>
-							<div class="field"> <input type="email" name="contraseña" placeholder="Contraseña"></div>
-							<div>
-								<button type="submit" class="btn">Login</button>
-								<button type="submit" class="btn">Regístrate!</button>
-							</div>
-						</div>
-					</form>
-				
+					
 					<footer>
 						<a href="#misrutas" class="button style2 down">More</a>
 					</footer>

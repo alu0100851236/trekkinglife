@@ -43,7 +43,7 @@ img.alineadoTextoImagenAbajo{
 /** --- FIN Alinear imagen con texto --- **/
 
 /** --- Contenedor registro --- **/
-form#container_register {
+#container_register {
   width: 350px;
   margin: 20px auto 0 auto;
   /*background-color: #E288A0;*/

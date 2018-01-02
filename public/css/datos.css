@@ -1,0 +1,39 @@
+.formulario {
+    
+    text-align: center;
+    background-color:#FBFCFC;
+    
+}
+
+.contenido {
+  border-radius: 15px;
+  background-color:#FBFCFC;
+}
+
+.top-buffer { 
+    margin-top:20px; 
+}
+
+.col1 {
+    
+    float:left;
+}
+
+
+.navbar-fixed-bottom{
+   
+    margin-top: 0px;
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.labelcito {
+    
+ display: block;
+ size:10;
+}
+.input-field input[type=text]{
+  size:10;
+}
